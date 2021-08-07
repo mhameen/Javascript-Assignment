@@ -83,42 +83,78 @@ console.log(res);*/
 //     console.log("valid age");       
 // }
 
-let animals = ['tiger', 'lion','elephant','cat','dog','panther','crocodile','snakes','monkey','bear' ]
+// let animals = ['tiger', 'lion','elephant','cat','dog','panther','crocodile','snakes','monkey','bear' ]
 
-console.log(animals[0])
-console.log(animals[1])
-console.log(animals[2])
-console.log(animals[3])
+// console.log(animals[0])
+// console.log(animals[1])
+// console.log(animals[2])
+// console.log(animals[3])
 
-console.log(animals)
+// console.log(animals)
 
-animals.pop()
-console.log(animals)
+// animals.pop()
+// console.log(animals)
 
-animals.push('bear')
-console.log(animals)
+// animals.push('bear')
+// console.log(animals)
 
-animals.shift()
-console.log(animals)
+// animals.shift()
+// console.log(animals)
 
-animals.unshift('tiger')
-console.log(animals)
+// animals.unshift('tiger')
+// console.log(animals)
 
-animals.splice(6)
-console.log(animals)
+// animals.splice(6)
+// console.log(animals)
 
 
-animals.splice(5,0,'camel')
-console.log(animals)
+// animals.splice(5,0,'camel')
+// console.log(animals)
 
-for (let i=0; i<=animals.length-1;i++){
-    console.log(animals[i])
+// for (let i=0; i<=animals.length-1;i++){
+//     console.log(animals[i])
+// }
+
+// console.log(animals.reverse())
+
+// let a = [1,3,5]
+// let b =[7,9]
+
+// let c = a.concat(b)
+// console.log(c)
+
+
+let profile = {
+      name:"Ameen",
+      age:"21",
+      mobile:7259693915,
+      Education:{
+          school:"willingTon English School",
+          puc:"Nataional pu college",
+          degree:"GCE"
+      },
+    Address:{
+        city:"Banglore",
+        state:'karnataka',
+        pin:560018
+    }
 }
 
-console.log(animals.reverse())
 
-let a = [1,3,5]
-let b =[7,9]
+console.log(profile.name)
+console.log(profile.Education.puc)
+console.log(profile['Address']['city'])
 
-let c = a.concat(b)
-console.log(c)
+
+
+let viedo ={
+    name:"access101",
+    play:function (){
+        console.log("viedo played")
+    },
+    timer:[10 , 20, 30]
+}
+
+console.log(viedo.name)
+console.log(viedo.play())
+console.log(viedo.timer)
