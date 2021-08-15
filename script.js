@@ -124,37 +124,77 @@ console.log(res);*/
 // console.log(c)
 
 
-let profile = {
-      name:"Ameen",
-      age:"21",
-      mobile:7259693915,
-      Education:{
-          school:"willingTon English School",
-          puc:"Nataional pu college",
-          degree:"GCE"
-      },
-    Address:{
-        city:"Banglore",
-        state:'karnataka',
-        pin:560018
-    }
-}
+// let profile = {
+//       name:"Ameen",
+//       age:"21",
+//       mobile:7259693915,
+//       Education:{
+//           school:"willingTon English School",
+//           puc:"Nataional pu college",
+//           degree:"GCE"
+//       },
+//     Address:{
+//         city:"Banglore",
+//         state:'karnataka',
+//         pin:560018
+//     }
+// }
 
 
-console.log(profile.name)
-console.log(profile.Education.puc)
-console.log(profile['Address']['city'])
+// console.log(profile.name)
+// console.log(profile.Education.puc)
+// console.log(profile['Address']['city'])
 
 
 
-let viedo ={
-    name:"access101",
-    play:function (){
-        console.log("viedo played")
-    },
-    timer:[10 , 20, 30]
-}
+// let viedo ={
+//     name:"access101",
+//     play:function (){
+//         console.log("viedo played")
+//     },
+//     timer:[10 , 20, 30]
+// }
 
-console.log(viedo.name)
-console.log(viedo.play())
-console.log(viedo.timer)
+// console.log(viedo.name)
+// console.log(viedo.play())
+// console.log(viedo.timer)
+
+
+// let a= "ameen";
+// let b ="Mohammed";
+
+// console.log(this.a);
+// console.log(this.b)
+
+// const demo = (a ,  b=10 , c=10) =>{
+//     return a + b + c;
+// }
+
+// let result = demo(10);
+// console.log(result);
+
+
+// var x;
+// a=100;
+// console.log(x)
+
+let headding1 = document.getElementById("part1")
+console.log(headding1)
+
+let headding2 = document.getElementsByClassName("part2")
+console.log(headding2)
+
+let headding3 = document.getElementsByTagName("h3")
+console.log(headding3)
+
+let headding4 = document.querySelector("#part1")
+console.log(headding4)
+
+let headding5 = document.querySelectorAll("h3")
+console.log(headding5)
+
+let headding6 = document.querySelectorAll(".part2")
+console.log(headding6)
+
+let headding7 = document.querySelectorAll("#part1")
+console.log(headding7)
