@@ -178,23 +178,42 @@ console.log(res);*/
 // a=100;
 // console.log(x)
 
-let headding1 = document.getElementById("part1")
-console.log(headding1)
+// let headding1 = document.getElementById("part1")
+// console.log(headding1)
 
-let headding2 = document.getElementsByClassName("part2")
-console.log(headding2)
+// let headding2 = document.getElementsByClassName("part2")
+// console.log(headding2)
 
-let headding3 = document.getElementsByTagName("h3")
-console.log(headding3)
+// let headding3 = document.getElementsByTagName("h3")
+// console.log(headding3)
 
-let headding4 = document.querySelector("#part1")
-console.log(headding4)
+// let headding4 = document.querySelector("#part1")
+// console.log(headding4)
 
-let headding5 = document.querySelectorAll("h3")
-console.log(headding5)
+// let headding5 = document.querySelectorAll("h3")
+// console.log(headding5)
 
-let headding6 = document.querySelectorAll(".part2")
-console.log(headding6)
+// let headding6 = document.querySelectorAll(".part2")
+// console.log(headding6)
 
-let headding7 = document.querySelectorAll("#part1")
-console.log(headding7)
+// let headding7 = document.querySelectorAll("#part1")
+// console.log(headding7)
+
+
+let parentEl = document.getElementById("parent")
+console.log(parentEl.firstChild)
+
+let parentEl1 = document.getElementById("parent")
+console.log(parentEl1.lastChild)
+
+let parentElem = document.getElementById("parent")
+console.log(parentElem.children)
+
+let parentEl2 = document.getElementById("parent")
+console.log(parentEl2.children[2])
+
+let childEl = document.getElementById("part1")
+console.log(childEl.nextElementSibling)
+
+let childEle = document.getElementById("part1")
+console.log(childEle.previousElementSibling)
