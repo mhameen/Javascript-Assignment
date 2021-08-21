@@ -209,6 +209,9 @@ console.log(parentEl1.lastChild)
 let parentElem = document.getElementById("parent")
 console.log(parentElem.children)
 
+let txt = document.getElementById("parent")
+console.log(txt.childNodes)
+
 let parentEl2 = document.getElementById("parent")
 console.log(parentEl2.children[2])
 
