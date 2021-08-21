@@ -217,3 +217,6 @@ console.log(childEl.nextElementSibling)
 
 let childEle = document.getElementById("part1")
 console.log(childEle.previousElementSibling)
+
+let element = document.getElementById("part1")
+console.log(element.parentElement)
